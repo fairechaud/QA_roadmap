@@ -41,10 +41,17 @@ Here's a rundown of some of the most used commands for testcase writing.
 |describe('Name of test suite', () => {})| describe and context('Name') are used to name and organize suites of tests|
 |it('Name of testcase', () => {})    |  Each testcase include in the test suite|
 |it.only('Name of testcase', () => {})  | Specifies a testcase to be run on its own, without reusing state or impacting other testcases |
-|cy.vist('URL')| opens a URL|
+|cy.visit('URL')| opens a URL|
 |cy.get('.class-name')| Selects a class or component as the UUT |
 |*.type('inputText')| Inputs text in the selected component |
-|\*.should('have.*whatever*', 'value')| The UUT shall have whatever property equal to the specified value|
+|\*.should('have.*whatever*', 'value')| The UUT shall have *whatever* property equal to the specified value, AKA 'assert that'|
+|*.should('contain', 'value')| Assert that the UUT contains 'value'|
+|cy.server()| Starts a server to handle API calls or methods|
+|cy.route({ url:,method:,status:,response:})| Implements an XHR stub to wire method and API call responses|
+|.first()| Used in conjunction with list items, it selects the **first** item|
+|.find(".class-name")| "Finds" and put the selected class element in focus|
+|.click()| The same as clicking on the selected item, would normally have .find() before it |
+|.invoke()| Call upon a pseudo-selector or a property, e.g. a button is set to display: None by default, we simulate a hover action in other to make visible by "showing it" onscreen with .invoke('show')|
 
 
 |Cypress commands *(for reusability)*| Descrition|
