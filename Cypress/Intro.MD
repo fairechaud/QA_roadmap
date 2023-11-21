@@ -32,11 +32,12 @@ There should be a 'cypress' folder included in the project. Inside it, organise 
 
 *e.g. Cypress/integration/input-form.spec.js* Will include the test suite for tests related to texting the input form and text-based inputs for the To do list.
 
-## List of commands
+## Table of commands
 
-|Command| Description|
+Here's a rundown of some of the most used commands for testcase writing. 
+
+|Command *(specific to testcase design)*| Description|
 |------|------|
-|*Commands specific to testcase design*|
 |describe('Name of test suite', () => {})| describe and context('Name') are used to name and organize suites of tests|
 |it('Name of testcase', () => {})    |  Each testcase include in the test suite|
 |it.only('Name of testcase', () => {})  | Specifies a testcase to be run on its own, without reusing state or impacting other testcases |
@@ -44,8 +45,9 @@ There should be a 'cypress' folder included in the project. Inside it, organise 
 |cy.get('.class-name')| Selects a class or component as the UUT |
 |*.type('inputText')| Inputs text in the selected component |
 |\*.should('have.*whatever*', 'value')| The UUT shall have whatever property equal to the specified value|
-|*Creating Cypress commands (for reusability)*`|
+
+
+|Cypress commands *(for reusability)*| Descrition|
 |----|----|
 |Cypress.Commands.add('name of command', => {})| Creates a new command to be used globally|
 |cy.name-of-command| Calls the predefined command, can be used for global setup, improves code reusability|
-
