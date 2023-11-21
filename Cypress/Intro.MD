@@ -36,7 +36,7 @@ There should be a 'cypress' folder included in the project. Inside it, organise 
 
 |Command| Description|
 |------|------|
-|Commands specific to testcase design|
+|*Commands specific to testcase design*|
 |describe('Name of test suite', () => {})| describe and context('Name') are used to name and organize suites of tests|
 |it('Name of testcase', () => {})    |  Each testcase include in the test suite|
 |it.only('Name of testcase', () => {})  | Specifies a testcase to be run on its own, without reusing state or impacting other testcases |
@@ -44,7 +44,7 @@ There should be a 'cypress' folder included in the project. Inside it, organise 
 |cy.get('.class-name')| Selects a class or component as the UUT |
 |*.type('inputText')| Inputs text in the selected component |
 |\*.should('have.*whatever*', 'value')| The UUT shall have whatever property equal to the specified value|
-|Creating Cypress commands (for reusability)||
+|*Creating Cypress commands (for reusability)*`|
 |----|----|
 |Cypress.Commands.add('name of command', => {})| Creates a new command to be used globally|
 |cy.name-of-command| Calls the predefined command, can be used for global setup, improves code reusability|
