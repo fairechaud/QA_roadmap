@@ -22,7 +22,8 @@ Key takeaways from the JD:
 + ...
 
 ## Right off the bat questions:
-+ Desired salary 85K NZD per annum
++ Desired salary 88K - 93K NZD per annum
++ What's the tech stack? Which languages? Which frameworks? How does GitLab fit in the SDLC?
 + How big is the testing team?
 + What clients does the testing team serve?
 + What products does the team test?
