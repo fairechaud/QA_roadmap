@@ -20,11 +20,11 @@ Starter project to test a React application using cypress (npm/node.js)
 - [x] Text inputs
 - [x] Form submission and XHRs
 - [x] Loading data with fixtures
-- [] Todo item behaviour
-- [] Toggling and debugging
-- [] Filters and data-driven tests
-- [] Full end-to-end tests Pt. 1
-- [] Full end-to-end tests Pt. 2
+- [ ] Todo item behaviour
+- [ ] Toggling and debugging
+- [ ] Filters and data-driven tests
+- [ ] Full end-to-end tests Pt. 1
+- [ ] Full end-to-end tests Pt. 2
 
 ## Writing tests
 
@@ -44,7 +44,7 @@ There should be a 'cypress' folder included in the project. Inside it, organise 
 |cy.get('.class-name')| Selects a class or component as the UUT |
 |*.type('inputText')| Inputs text in the selected component |
 |\*.should('have.*whatever*', 'value')| The UUT shall have whatever property equal to the specified value|
-|Creating Cypress commands (for reusability)|
+|Creating Cypress commands (for reusability)|| --- ||
 |----|----|
 |Cypress.Commands.add('name of command', => {})| Creates a new command to be used globally|
 |cy.name-of-command| Calls the predefined command, can be used for global setup, improves code reusability|
