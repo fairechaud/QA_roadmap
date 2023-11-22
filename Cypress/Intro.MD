@@ -54,7 +54,7 @@ Here's a rundown of some of the most used commands for testcase writing.
 |.invoke()| Call upon a pseudo-selector or a property, e.g. a button is set to display: None by default, we simulate a hover action in other to make visible by "showing it" onscreen with .invoke('show')|
 
 
-|Cypress commands *(for reusability)*| Descrition|
+|Cypress commands *(for reusability)*| Description|
 |----|----|
 |Cypress.Commands.add('name of command', => {})| Creates a new command to be used globally|
 |cy.name-of-command| Calls the predefined command, can be used for global setup, improves code reusability|
