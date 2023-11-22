@@ -8,13 +8,13 @@ https://roadmap.sh/qa
 
 - [x] Selenium: https://www.guru99.com/selenium-tutorial.html
 
-- [x] V-model:[./Week1/V-model.MD] https://www.guru99.com/v-model-software-testing.html
+- [x] V-model: https://www.guru99.com/v-model-software-testing.html
 
 - [X] V-model Pt. 2: https://testsigma.com/blog/v-model-in-software-development-life-cycle/
 
-- [ ] STLC:[./Week2/STLC.MD] https://www.guru99.com/software-testing-life-cycle.html
+- [x] STLC: https://www.guru99.com/software-testing-life-cycle.html
 
-- [ ] Func vs Non-Func: https://smartbear.com/learn/automated-testing/software-testing-methodologies/
+- [x] Func vs Non-Func: https://smartbear.com/learn/automated-testing/software-testing-methodologies/
 
 - [ ] Testing Method: https://www.guru99.com/testing-methodology.html
 
