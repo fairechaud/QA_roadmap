@@ -3,8 +3,8 @@
 <img src="../img/stlc-phases.webp">
 
 
-|-----|---------|------------|---------|---------|----------|
 |Requirement Analysis| Requirements Document available (both functional and non functional) 
+|-----|---------|------------|---------|---------|----------|
  Acceptance criteria defined.
  Application architectural document available.
 |  Analyse business functionality to know the business modules and module specific functionalities.
