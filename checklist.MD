@@ -16,7 +16,7 @@ https://roadmap.sh/qa
 
 - [x] Func vs Non-Func: https://smartbear.com/learn/automated-testing/software-testing-methodologies/
 
-- [ ] Testing Method: https://www.guru99.com/testing-methodology.html
+- [x] Testing Method: https://www.guru99.com/testing-methodology.html
 
 - [ ] Testing Automation Frameworks: https://smartbear.com/learn/automated-testing/test-automation-frameworks/
 
