@@ -1,8 +1,10 @@
 # V-model in Software Testing
 
-<img src="./img/vmodel.webp">
+<img src="../img/vmodel.webp">
 
 V Model is a highly disciplined SDLC model which has a testing phase parallel to each development phase. The V model is an extension of the waterfall model wherein software development and testing is executed in a sequential way. It is also known as the Validation or Verification Model.
+
+<img src="../img/cost-of-defects.png>
 
 ## Verification and Validation
 
